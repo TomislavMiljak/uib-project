@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    /* width: 100vw; */
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(206, 135, 135), rgb(96, 224, 96)); 
+    background-size: cover;
+    background-position:90% 90%;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 80vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+
+}
+/* nav { */
+/*     display: flex; */
+/*     flex-direction: column; */
+/*     justify-content: center; */
+/* } */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+main {
+    width: 80vw;
+   /*  height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 10px;
+    /* background: url(/assets/gabin-vallet-J154nEkpzlQ-unsplash.jpg); */
+    /* background-position: left; */
+    /* background-size: cover; */
+    /* height: 10%; */
+    /* width: 80vw; */
+
+}
+h1 {
+    background-color: greenyellow;
+    height: 50px;
+    width: 80vw;
+    padding-left: 1rem;
+    border-radius: 20px;
+    
+}
+.disclaimer {
+    background-color: yellow;
+    border: 2px solid red;
+    text-align: center;
+    overflow: auto;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 99%;
+    /* height: 90%; */
+    margin: 2rem;
+}
+.card {
+    width: 30%;
+    height: 300px;
+    border: 2px solid green;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    border-radius: 20px;
+    
+    
+}
+.card p,
+.card h3 {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255,0.5);
+}
+
+.card1 {
+    background: url(/assets/eating/jason-briscoe-7MAjXGUmaPw-unsplash.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.card2 {
+    background: url(/assets/eating/toa-heftiba-yote8-zY2Ec-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card3 {
+    background: url(/assets/eating/kelsey-chance-ZrhtQyGFG6s-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card4 {
+    background: url(/assets/eating/sara-cervera-0X6sEvSJxas-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+}
+.card5 {
+    background: url(/assets/eating/sander-dalhuisen-nA6Xhnq2Od8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card6 {
+    background: url(/assets/eating/dan-gold-E6HjQaB7UEA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    direction: column;
+    /* justify-content: flex-start; */
+}
+.card1,
+.card2,
+.card3 {
+    color: green;
+    font-weight: 800;
+}
+.card4,
+.card5,
+.card6 {
+    color: red;
+    font-weight: 800;
+}
+
+footer {
+    width: 80vw;
+    height: 10vh;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.footer {
+    display:flex;
+
+}
+
+ @media (max-width: 870px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .card {
+        width: 90%;
+    }
+ }
+

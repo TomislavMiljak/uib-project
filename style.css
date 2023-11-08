@@ -25,13 +25,14 @@ body {
 
 header {
     width: 80vw;
-    height: 50px;
+    /* height: 50px; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0;
     margin-left: 0;
     margin-bottom: 10px;
+    padding-top: 3.5rem;
 
 }
 /* nav { */
@@ -110,27 +111,28 @@ h1 {
 .card h3 {
     backdrop-filter: blur(10px);
     background-color: rgba(255,255,255,0.5);
+    padding: 5px;
 }
 
 .card1 {
-    background: url(/assets/jonathan-borba-lrQPTQs7nQQ-unsplash\(1\).jpg);
+    background: url(/assets/activity/jonathan-borba-lrQPTQs7nQQ-unsplash\(1\).jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 .card2 {
-    background: url(/assets/clique-images-hSB2HmJYaTo-unsplash.jpg);
+    background: url(/assets/activity/clique-images-hSB2HmJYaTo-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card3 {
-    background: url(/assets/unsplash-c59hEeerAaI-unsplash.jpg);
+    background: url(/assets/activity/unsplash-c59hEeerAaI-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
 .card4 {
-    background: url(/assets/freestocks-I_pOqP6kCOI-unsplash.jpg);
+    background: url(/assets/activity/freestocks-I_pOqP6kCOI-unsplash.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -138,13 +140,13 @@ h1 {
     /* justify-content: flex-start; */
 }
 .card5 {
-    background: url(/assets/christin-hume-slbqShqAhEo-unsplash.jpg);
+    background: url(/assets/activity/christin-hume-slbqShqAhEo-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .card6 {
-    background: url(/assets/annie-spratt-hCb3lIB8L8E-unsplash.jpg);
+    background: url(/assets/activity/annie-spratt-hCb3lIB8L8E-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

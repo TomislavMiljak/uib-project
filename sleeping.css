@@ -25,13 +25,14 @@ body {
 
 header {
     width: 80vw;
-    height: 50px;
+    /* height: 50px; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0;
     margin-left: 0;
     margin-bottom: 10px;
+    padding-top: 3.5rem;
 
 }
 /* nav { */
@@ -110,27 +111,28 @@ main {
 .card h3 {
     backdrop-filter: blur(10px);
     background-color: rgba(255,255,255,0.5);
+    padding: 5px;
 }
 
 .card1 {
-    background: url(/assets/eating/jason-briscoe-7MAjXGUmaPw-unsplash.jpg);
+    background: url(/assets/sleeping/gregory-pappas-rUc9hVE-L-E-unsplash.jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 .card2 {
-    background: url(/assets/eating/toa-heftiba-yote8-zY2Ec-unsplash.jpg);
+    background: url(/assets/sleeping/patrick-hendry-XX4Y1j3rPjI-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card3 {
-    background: url(/assets/eating/kelsey-chance-ZrhtQyGFG6s-unsplash.jpg);
+    background: url(/assets/sleeping/pexels-cottonbro-studio-10211657.jpg);
     background-size: cover;
     background-position: center;
 }
 .card4 {
-    background: url(/assets/eating/sara-cervera-0X6sEvSJxas-unsplash.jpg);
+    background: url(/assets/sleeping/alexandra-gorn-smuS_jUZa9I-unsplash.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -138,13 +140,13 @@ main {
     /* justify-content: flex-start; */
 }
 .card5 {
-    background: url(/assets/eating/sander-dalhuisen-nA6Xhnq2Od8-unsplash.jpg);
+    background: url(/assets/sleeping/mika-ruusunen-JFx9xYR_8vw-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .card6 {
-    background: url(/assets/eating/dan-gold-E6HjQaB7UEA-unsplash.jpg);
+    background: url(/assets/sleeping/pexels-andrea-piacquadio-3931860.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

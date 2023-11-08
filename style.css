@@ -50,6 +50,10 @@ nav ul {
     align-items: center;
     gap: 3rem;
 }
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
 main {
     width: 80vw;
    /*  height: 100vh; */
@@ -181,6 +185,13 @@ footer {
 }
 .footer {
     display:flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: greenyellow;
+    border-radius: 20px;
+    font-weight: bold;
 
 }
 

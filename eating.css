@@ -32,9 +32,9 @@ header {
     margin-top: 4rem;
     margin-left: 0;
     margin-bottom: 10px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: greenyellow;
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1rem; */
+    /* background-color: greenyellow; */
     border-radius: 20px;
 }
 /* nav { */
@@ -45,13 +45,17 @@ header {
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 3rem;
 }
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
+    background-color: greenyellow;
+    padding: 1rem;
+    border-radius: 20px;
 }
 main {
     width: 80vw;
@@ -182,21 +186,29 @@ main {
 
 footer {
     width: 80vw;
-    height: 10vh;
-    margin-bottom: 0;
+    /* height: 10vh; */
+    margin-bottom: 1rem;
     margin-left: 0;
+    margin-top: -10px;
 }
 .footer {
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: greenyellow;
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1rem; */
+    /* background-color: greenyellow; */
     border-radius: 20px;
     font-weight: bold;
     /* margin-bottom: 2rem; */
-
+}
+.footer p {
+    background-color: greenyellow;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
 }
 .footer p a {
     text-decoration: none;

@@ -194,6 +194,10 @@ footer {
     font-weight: bold;
 
 }
+.footer p a {
+    text-decoration: none;
+    color: black;
+}
 
  @media (max-width: 870px) {
 

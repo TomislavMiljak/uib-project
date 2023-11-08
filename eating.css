@@ -114,6 +114,10 @@ main {
     
     
 }
+.card a {
+    text-decoration: none;
+    color: red;
+}
 .card p,
 .card h3 {
     backdrop-filter: blur(10px);

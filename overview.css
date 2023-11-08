@@ -112,8 +112,7 @@ main {
     gap: 1rem;
     border-radius: 20px;
     overflow: auto;
-    
-    
+       
 }
 .card p,
 .card h3 {
@@ -123,7 +122,10 @@ main {
     border-radius: 20px;
     text-align: center;
 }
-
+.card a {
+    text-decoration: none;
+    color: red;
+}
 .card1 {
     background: url(/assets/overview/nikita-shirokov-0C0scqtrthY-unsplash.jpg);
     background-position: top;

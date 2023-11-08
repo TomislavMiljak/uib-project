@@ -67,12 +67,13 @@ main {
     /* width: 80vw; */
 
 }
-h1 {
+.heading h1 {
     background-color: greenyellow;
-    height: 50px;
-    width: 80vw;
+   /*  height: 50px; */
+   /*  width: 80vw; */
     padding-left: 1rem;
     border-radius: 20px;
+    overflow: auto;
     
 }
 .disclaimer {
@@ -101,6 +102,7 @@ h1 {
     justify-content: space-between;
     gap: 1rem;
     border-radius: 20px;
+    overflow: auto;
     
     
 }
@@ -175,6 +177,8 @@ footer {
 }
 
  @media (max-width: 870px) {
+
+    
     .card-container {
         display: flex;
         flex-direction: column;
@@ -185,3 +189,8 @@ footer {
     }
  }
 
+ @media (max-width: 574px) {
+    .heading h1 {
+        height: 100px;
+    }
+ }

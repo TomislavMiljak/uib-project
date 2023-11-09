@@ -113,6 +113,9 @@ main {
     margin: 50px;
     /* margin-left: 80px; */
 }
+.card-container a:hover {
+    transform: scale(1.1);
+}
 .card {
     width: 100%;
     height: 100%;

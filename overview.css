@@ -142,7 +142,7 @@ main {
     color: red;
 }
 .card1 {
-    background: url(/assets/overview/nikita-shirokov-0C0scqtrthY-unsplash.jpg);
+    background: url('./assets/overview/nikita-shirokov-0C0scqtrthY-unsplash.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;

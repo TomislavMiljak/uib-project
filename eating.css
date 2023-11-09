@@ -141,25 +141,25 @@ main {
     color: red;
 }
 .card1 {
-    background: url(/assets/eating/jason-briscoe-7MAjXGUmaPw-unsplash.jpg);
+    background: url("./assets/eating/jason-briscoe-7MAjXGUmaPw-unsplash.jpg");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 .card2 {
-    background: url(/assets/eating/toa-heftiba-yote8-zY2Ec-unsplash.jpg);
+    background: url("./assets/eating/toa-heftiba-yote8-zY2Ec-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .card3 {
-    background: url(/assets/eating/pexels-august-de-richelieu-4262010.jpg);
+    background: url("./assets/eating/pexels-august-de-richelieu-4262010.jpg");
     background-size: cover;
     background-position: bottom;
 }
 .card4 {
-    background: url(/assets/eating/sara-cervera-0X6sEvSJxas-unsplash.jpg);
+    background: url("./assets/eating/sara-cervera-0X6sEvSJxas-unsplash.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -167,13 +167,13 @@ main {
     /* justify-content: flex-start; */
 }
 .card5 {
-    background: url(/assets/eating/sander-dalhuisen-nA6Xhnq2Od8-unsplash.jpg);
+    background: url("./assets/eating/sander-dalhuisen-nA6Xhnq2Od8-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .card6 {
-    background: url(/assets/eating/dan-gold-E6HjQaB7UEA-unsplash.jpg);
+    background: url("./assets/eating/dan-gold-E6HjQaB7UEA-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

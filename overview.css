@@ -149,18 +149,18 @@ main {
 
 }
 .card2 {
-    background: url(/assets/overview/caroline-veronez-bbjmFMdWYfw-unsplash.jpg);
+    background: url("./assets/overview/caroline-veronez-bbjmFMdWYfw-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
 }
 .card3 {
-    background: url(/assets/overview/melissa-askew-tSlvoSZK77c-unsplash.jpg);
+    background: url("./assets/overview/melissa-askew-tSlvoSZK77c-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 .card4 {
-    background: url(/assets/overview/joeyy-lee-3I0jy73l8u8-unsplash.jpg);
+    background: url("./assets/overview/joeyy-lee-3I0jy73l8u8-unsplash.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -168,13 +168,13 @@ main {
     /* justify-content: flex-start; */
 }
 .card5 {
-    background: url(/assets/overview/marc-olivier-jodoin--TQUERQGUZ8-unsplash.jpg);
+    background: url("./assets/overview/marc-olivier-jodoin--TQUERQGUZ8-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .card6 {
-    background: url(/assets/overview/saksham-gangwar-YVgOh8w1R4s-unsplash.jpg);
+    background: url("./assets/overview/saksham-gangwar-YVgOh8w1R4s-unsplash.jpg");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;

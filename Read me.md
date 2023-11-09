@@ -11,5 +11,7 @@ Finally, one of the main purposes of this mini-website, per author's humble beli
 The author wishes all the recipients the best of luck in their future endeavours!
 
 Tomislav Miljak
+
 Berlin
+
 09.11.2023.

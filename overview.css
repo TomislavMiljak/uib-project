@@ -58,6 +58,9 @@ nav ul li a {
     padding: 1rem;
     border-radius: 20px;
 }
+nav ul li:hover {
+    transform: scale(1.1);
+}
 main {
     /* width: 80vw; */
     /* height: 100vh; */
@@ -219,6 +222,9 @@ footer {
     font-weight: bold;
     padding: 1rem;
     text-align: center;
+}
+.footer p:nth-of-type(1):hover {
+    transform: scale(1.1);
 }
 .footer p a {
     text-decoration: none;

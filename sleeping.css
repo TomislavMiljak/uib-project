@@ -58,7 +58,7 @@ nav ul li a {
     padding: 1rem;
     border-radius: 20px;
 }
-nav ul li a:hover {
+nav ul li:hover {
     transform: scale(1.1);
 }
 main {
@@ -221,6 +221,9 @@ footer {
     font-weight: bold;
     padding: 1rem;
     text-align: center;
+}
+.footer p:nth-of-type(1):hover {
+    transform: scale(1.1);
 }
 .footer p a {
     text-decoration: none;

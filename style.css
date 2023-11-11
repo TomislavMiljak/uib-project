@@ -120,6 +120,33 @@ main {
     transform: scale(1.1);
     /* animation-timing-function: ease-in-out; */
 }
+.card-container a:first-of-type:hover::after,
+.card-container a:nth-of-type(2):hover::after,
+.card-container a:nth-of-type(3):hover::after {
+    content: "______________WAY TO GO!!!_______________";
+    color: green;
+    font-weight: bolder;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    /* transform: scale(1.1) rotateY(180deg); */
+}
+
+.card-container a:nth-of-type(4):hover::before,
+.card-container a:nth-of-type(5):hover::before,
+.card-container a:nth-of-type(6):hover::before {
+    content: "___CLICK THE IMAGE TO READ MORE__";
+    color: red;
+    font-weight: bolder;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+}
+/* .card-container a:first-of-type::after {
+    content: "WELL DONE";
+    color: green;
+    transform:rotateY(180deg);
+
+} */
+
 .card {
     width: 100%;
     height: 100%;

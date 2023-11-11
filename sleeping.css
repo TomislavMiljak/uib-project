@@ -51,6 +51,9 @@ nav ul {
     flex-wrap: wrap;
     gap: 3rem;
 }
+nav ul li:hover { 
+    transform: scale(1.1);
+}
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
@@ -221,6 +224,9 @@ footer {
     font-weight: bold;
     padding: 1rem;
     text-align: center;
+}
+.footer p:nth-of-type(1):hover { 
+    transform: scale(1.1);
 }
 .footer p a {
     text-decoration: none;

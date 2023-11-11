@@ -136,7 +136,7 @@ main {
 .card-container a:nth-of-type(4):hover::before,
 .card-container a:nth-of-type(5):hover::before,
 .card-container a:nth-of-type(6):hover::before {
-    content: "CLICK THE IMAGE TO READ MORE";
+    content: "CLICK IMAGE TO READ MORE";
     color: red;
     font-weight: bolder;
     background-color: rgba(255,255,255,0.5);
@@ -265,7 +265,7 @@ footer {
         flex-wrap: nowrap;
     }
     .card-container a {
-        width: 76vw;
+        width: 75vw;
         
     }
  }

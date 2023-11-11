@@ -256,7 +256,7 @@ footer {
 
  @media (max-width: 870px) {
     main {
-        width: 85vw;
+        width: 400px;
     }
     
     .card-container {

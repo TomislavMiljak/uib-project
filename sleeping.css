@@ -123,7 +123,6 @@ main {
     transform: scale(1.1);
 }
 .card-container a:first-of-type:hover::after,
-.card-container a:nth-of-type(2):hover::after,
 .card-container a:nth-of-type(3):hover::after {
     content: "WAY TO GO!!!";
     color: green;
@@ -132,7 +131,12 @@ main {
     border-radius: 10px;
     /* transform: scale(1.1) rotateY(180deg); */
 }
-
+.card-container a:nth-of-type(2):hover::after {
+    content: "TRY IT OUT!!!";
+color: green;
+font-weight: bolder;
+background-color: rgba(255,255,255,0.5);
+border-radius: 10px;
 .card-container a:nth-of-type(4):hover::before,
 .card-container a:nth-of-type(5):hover::before,
 .card-container a:nth-of-type(6):hover::before {

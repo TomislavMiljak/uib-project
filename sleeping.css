@@ -225,11 +225,7 @@ footer {
     padding: 1rem;
     text-align: center;
 }
-<<<<<<< HEAD
-.footer p:nth-of-type(1):hover { 
-=======
 .footer p:nth-of-type(1):hover {
->>>>>>> 74cd8b5733db84ab5123cc6fa08c57a9557b15e6
     transform: scale(1.1);
 }
 .footer p a {

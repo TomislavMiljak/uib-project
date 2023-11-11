@@ -255,7 +255,7 @@ footer {
 
  @media (max-width: 870px) {
     main {
-        width: 90vw;
+        width: 85vw;
     }
     
     .card-container {
@@ -264,7 +264,7 @@ footer {
         flex-wrap: nowrap;
     }
     .card-container a {
-        width: 75vw;
+        width: 70vw;
     }
  }
 

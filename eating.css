@@ -280,3 +280,9 @@ footer {
     /*     margin-bottom: 3rem; */
     /* } */
  }
+
+ @media (max-width:380px) {
+    main {
+        width: 100vw;
+    }
+}

@@ -275,3 +275,8 @@ footer {
         height: 100px;
     }
  }
+ @media (max-width:380px) {
+    main {
+        width: 100vw;
+    }
+}

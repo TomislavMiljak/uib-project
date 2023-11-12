@@ -92,6 +92,7 @@ main {
     border-radius: 20px;
     overflow: auto;
     text-align: center;
+    padding: 5px;
     
 }
 .disclaimer {
@@ -100,6 +101,7 @@ main {
     text-align: center;
     padding: 2px;
     overflow: auto;
+    padding: 5px;
 }
 .card-container {
     display: flex;
@@ -260,15 +262,15 @@ footer {
 }
  @media (max-width: 870px) {
     main {
-        width: 90vw;
+       /*  width: 90vw; */
     }
     .card-container {
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
     }
     .card-container a {
-        width: 75vw;
+        width: 74vw;
     }
  }
 
@@ -281,8 +283,8 @@ footer {
     /* } */
  }
 
- @media (max-width:380px) {
-    main {
-        width: 100vw;
-    }
-}
+/*  @media (max-width:380px) { */
+/*     main { */
+/*         width: 100vw; */
+/*     } */
+/* } */

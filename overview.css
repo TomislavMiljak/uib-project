@@ -262,10 +262,10 @@ footer {
     .card-container {
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
     }
     .card-container a {
-        width: 75vw;
+        width: 74vw;
         
     }
  }
@@ -275,8 +275,7 @@ footer {
         height: 100px;
     }
  }
- @media (max-width:380px) {
-    main {
-        width: 100vw;
-    }
-}
+
+
+
+

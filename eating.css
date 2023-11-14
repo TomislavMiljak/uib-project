@@ -126,8 +126,8 @@ main {
 }
 .card-container a img {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 390px;
+    height: 390px;
     opacity: 0;
     z-index: -1;
 }
@@ -167,7 +167,7 @@ main {
 
 }
 .card-container a:active .card{
-    opacity: 0;
+    /* opacity: 0; */
     /* img:url("./assets/Screenshot\ from\ 2023-11-12\ 18-28-44.png"); */
     z-index: -1;
 }
@@ -288,7 +288,7 @@ footer {
       transform: scale(0);
     }
     20%,100% {
-      transform: scale(1.1) translateY(-320px) translateX(50px);
+      transform: scale(1.1);
     }
 }
 @media (max-width: 870px) {

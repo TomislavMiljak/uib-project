@@ -6,6 +6,7 @@
 
 :root {
     font-size: 62.5%;
+    background: rgb(96, 224, 96);
 }
 
 body {
@@ -51,6 +52,9 @@ nav ul {
     flex-wrap: wrap;
     gap: 3rem;
 }
+nav ul li:hover { 
+    transform: scale(1.1);
+}
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
@@ -62,7 +66,7 @@ nav ul li:hover {
     transform: scale(1.1);
 }
 main {
-   /*  width: 80vw; */
+    /* width: 80vw; */
    /*  height: 100vh; */
     display: flex;
     flex-direction: column;
@@ -84,8 +88,8 @@ main {
 }
 .heading h1 {
     background-color: greenyellow;
-    /* height: 50px */;
-    /* width: 80vw; */
+   /*  height: 50px; */
+   /*  width: 80vw; */
     padding-left: 1rem;
     border-radius: 20px;
     overflow: auto;
@@ -107,7 +111,7 @@ main {
     /* gap: 2rem; */
     /* width: 99%; */
     /* height: 90%; */
-   /*  margin: 2rem; */
+    /* margin: 2rem; */
 }
 .card-container a {
     position: relative;
@@ -138,10 +142,10 @@ main {
 }
 .card-container a:nth-of-type(2):hover::after {
     content: "TRY IT OUT!!!";
-color: green;
-font-weight: bolder;
-background-color: rgba(255,255,255,0.5);
-border-radius: 10px;
+    color: green;
+    font-weight: bolder;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
 }
 .card-container a:nth-of-type(4):hover::before,
 .card-container a:nth-of-type(5):hover::before,
@@ -151,14 +155,7 @@ border-radius: 10px;
     font-weight: bolder;
     background-color: rgba(255,255,255,0.5);
     border-radius: 10px;
-    
 }
-/* .card-container a:first-of-type::after {
-    content: "WELL DONE";
-    color: green;
-    transform:rotateY(180deg);
-
-} */
 .card-container a:active img {
     animation-name: move;
     animation-duration: 1s;
@@ -167,7 +164,6 @@ border-radius: 10px;
     animation-fill-mode: forwards;
     opacity: 1;
     z-index: 1;
-    
 
 }
 .card-container a:active .card{
@@ -186,7 +182,52 @@ border-radius: 10px;
     /* gap: 1rem; */
     border-radius: 20px;
     /* overflow: auto; */
+    perspective: 1000px;
         
+}
+.card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.card:active .card-inner {
+    transform: rotateY(180deg);
+}
+/* .card-front {
+    width: 100%;
+    height: 100%;
+    
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20rem;
+    border-radius: 20px;
+    
+    perspective: 1000px;
+} */
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+.card-back{
+    visibility: hidden;
+}
+.card:active .card-back{
+    transform: rotateY(180deg)
 }
 .card p,
 .card h3 {
@@ -255,7 +296,7 @@ border-radius: 10px;
 
 footer {
     width: 80vw;
-    /* height: 10vh; */
+  /*   height: 10vh; */
     margin-bottom: 1rem;
     margin-left: 0;
     margin-top: -10px;
@@ -265,12 +306,11 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
-    /* padding-top: 0.3rem; */
+    /* padding-top: 1rem; */
     /* padding-bottom: 1rem; */
     /* background-color: greenyellow; */
     border-radius: 20px;
     font-weight: bold;
-
 }
 .footer p {
     background-color: greenyellow;
@@ -287,29 +327,29 @@ footer {
     color: black;
 }
 @keyframes move {
-      0% {
-        transform: scale(0);
-      }
-      20%,100% {
-        transform: scale(1.1);
-      }
+    0% {
+      transform: scale(0);
+    }
+    20%,100% {
+      transform: scale(1.1);
+    }
 }
-
 @media (max-width: 870px) {
     main {
         width: 90vw;
     }
+    
     .card-container {
         display: flex;
         flex-direction: column;
-       /*  flex-wrap: nowrap; */
+        flex-wrap: nowrap;
     }
     .card-container a {
         width: 74vw;
     }
     .card-container a:active img {
-        width: 200px;
-        height: 200px;
+        width: 95%;
+        height: 100%;
     }
  }
 
@@ -317,17 +357,10 @@ footer {
     .heading h1 {
         height: 100px;
     }
+ }
 
-}
- 
-/* @media (max-width:380px) { */
+/*  @media (max-width:380px) { */
 /*     main { */
 /*         width: 100vw; */
 /*     } */
 /* } */
-
-
-
-
-
-

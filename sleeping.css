@@ -6,6 +6,7 @@
 
 :root {
     font-size: 62.5%;
+    background: rgb(96, 224, 96);
 }
 
 body {
@@ -302,8 +303,8 @@ footer {
         width: 74vw;
     }
     .card-container a:active img {
-        width: 200px;
-        height: 200px;
+        width: 95%;
+        height: 100%;
     }
  }
 
